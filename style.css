@@ -18,6 +18,14 @@
   img {
       height: 120px;
   }
+
+  h1 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    height: 120px;
+  }
   
   @media screen and (min-width: 600px) {
     .card {
